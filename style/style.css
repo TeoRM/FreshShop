@@ -1,0 +1,325 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+.bodyInicio{
+    background-image: url(../img/fondo.jpg);
+    background-size: cover;
+}
+
+.bodyInicio1{
+    background-image: url(../img/fondodif.jpg);
+    background-size: cover;
+    
+}
+
+.mainLogin{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.logo{
+    border: solid 10px rgba(0, 0, 225, 0.346);
+    border-radius: 10px;
+    width: 300px;
+    margin-top: 100px;
+}
+.botonPrincipal{
+    padding: 20px;
+    width: 350px;
+    border-radius: 40px;
+    background-color: #09068A;
+    color: white;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+.botonPrincipal2{
+    padding: 20px;
+    width: 350px;
+    border-radius: 40px;
+    background-color: #09068A;
+    color: white;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.texto{
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.39);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.texto2{
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+
+.texto a{
+    text-decoration: none;
+    color: #09068A;
+}
+
+.login{
+    margin-top: -50px;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #D9D9D9;
+    border-radius: 30px;
+}
+
+.botones{
+    display: flex;
+    justify-content: center;
+    margin-top: 20%;
+}
+
+.botonPrimario{
+    z-index: 1000;
+    position: relative;
+    left: 30px;
+    padding: 20px;
+    width: 140px;
+    border-radius: 40px;
+    background-color: #09068A;
+    color: white;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.botonSecuntario{
+    position: relative;
+    right: 30px;
+    padding: 20px;
+    padding-left: 40px;
+    width: 200px;
+    border-radius: 40px;
+    background-color: #7D7D82;
+    color: white;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.contenedorBoton{
+    display: flex;
+    justify-content: center;
+}
+
+.contenedorInputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 30%;
+    margin-top: 10%;
+}
+
+.input{
+    color: white;
+    background-color:#7D7D82;
+    border: none;
+    width: 300px;
+    padding: 15px;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+.input::placeholder {
+    color: white;
+}
+
+.logoLogin{
+    border: solid 10px rgba(0, 0, 225, 0.346);
+    width: 180px;
+    border-radius: 10px;
+}
+
+.logoSingUp{
+    width: 170px;
+    border-radius: 10px;
+}
+
+.singUp{
+    height: 850px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #D9D9D9;
+    border-radius: 30px;
+}
+
+.botonSecuntarioSing{
+    position: relative;
+    left: 30px;
+    padding: 20px;
+    padding-right: 40px;
+    width: 200px;
+    border-radius: 40px;
+    background-color: #7D7D82;
+    color: white;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.botonPrimarioSing{
+    z-index: 1000;
+    position: relative;
+    right: 30px;
+    padding: 20px;
+    width: 140px;
+    border-radius: 40px;
+    background-color: #09068A;
+    color: white;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+.botones2{
+    margin-top: 20px;
+}
+
+.texto2 a{
+    text-decoration: none;
+    color: #09068A;
+}
+
+.atras{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.atras1{
+    position: absolute;
+    left: 10px;
+    top: 95px;
+}
+
+.atras img{
+    width: 30px;
+}
+
+.atras1 img{
+    width: 30px;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #09068A;
+    width: 100%;
+    height: 70px;
+}
+
+.textoPrendas{
+    font-size: 30px;
+}
+
+.imagen_carrito{
+    position:absolute;
+    left: 10px;
+    width: 50px;
+    color: white;
+    margin: 10px;
+}
+
+.pie2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:80px;
+}
+.pie2 p{
+    font-size: 30px;
+}
+.pie2 img{
+    width: 60px;
+    position: absolute;
+    right: 10px;
+
+}
+.pie3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #09068A;
+    text-align: center;
+    height: 70px;
+}
+.pie3 p {
+    font-size: 30px;
+    color: white;
+}
+
+.iconos1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+article img{
+    width: 150px;
+    margin: 20px;
+}
+
+.iconos1 a{
+    text-decoration: none;
+    color: black;
+}
+
+.iconos1 a:hover{
+    text-decoration: underline;
+    color: #09068A;
+}
+
+.iconos1 article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    width: 280px;
+}
+.añadir-carro{
+    display: flex;
+    justify-content: center;
+}
+
+.añadir-carro button{
+    cursor: pointer;
+    width: 300px;
+    height: 50px;
+    background-color: #09068A;
+    color: white;
+    border: none;
+    margin-top: 20px;
+}
+
